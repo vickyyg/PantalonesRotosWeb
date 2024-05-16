@@ -1,0 +1,19 @@
+.video-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px; /* Espacio entre los videos */
+  margin-left: 30px;
+}
+
+.videos {
+  width: 100%; 
+  border-radius: 20px;
+}
+
+
+@media (max-width: 800px) {
+    .video-container{
+        margin: 0;
+    }
+  
+}
